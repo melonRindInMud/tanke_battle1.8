@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CDE27BE7-7A2D-4738-B658-32B8943D6C66}</ProjectGuid>
+    <RootNamespace>坦克大战系列</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="OpenCV2.4.9 debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="OpenCV2.4.9 release.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\自主开发库;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MQuestDialog.h" />
+    <ClInclude Include="my_resource.h" />
+    <ClInclude Include="M_HelpDialog.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="坦克大战系列.h" />
+    <ClInclude Include="坦克大战系列Dlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dlg_Battle_Draws.cpp" />
+    <ClCompile Include="Dlg_Battle_Process_Control.cpp" />
+    <ClCompile Include="Dlg_CG_Draws.cpp" />
+    <ClCompile Include="Dlg_init_Draws.cpp" />
+    <ClCompile Include="Dlg_Interval_Draws.cpp" />
+    <ClCompile Include="Dlg_Process_Control.cpp" />
+    <ClCompile Include="Dlg_Stage_Complete_Draw.cpp" />
+    <ClCompile Include="Dlg_Stage_Information.cpp" />
+    <ClCompile Include="Dlg_Story_Presentorcpp.cpp" />
+    <ClCompile Include="Dlg_Tank_Upgrade.cpp" />
+    <ClCompile Include="MQuestDialog.cpp" />
+    <ClCompile Include="M_HelpDialog.cpp" />
+    <ClCompile Include="m_res_all.cpp" />
+    <ClCompile Include="m_res_npc_tank.cpp" />
+    <ClCompile Include="m_res_player_tank.cpp" />
+    <ClCompile Include="m_res_shell.cpp" />
+    <ClCompile Include="m_res_sound_player.cpp" />
+    <ClCompile Include="m_res_tank(virtual basic clas).cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="坦克大战系列.cpp" />
+    <ClCompile Include="坦克大战系列Dlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="坦克大战系列.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My.rc2" />
+    <None Include="res\wave2.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap2.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\bitmap4.bmp" />
+    <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\bitmap6.bmp" />
+    <Image Include="res\bitmap7.bmp" />
+    <Image Include="res\bitmap8.bmp" />
+    <Image Include="res\bitmap9.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\bmp00004.bmp" />
+    <Image Include="res\bmp00005.bmp" />
+    <Image Include="res\bmp00006.bmp" />
+    <Image Include="res\bmp00007.bmp" />
+    <Image Include="res\bmp00008.bmp" />
+    <Image Include="res\bmp00009.bmp" />
+    <Image Include="res\bmp00010.bmp" />
+    <Image Include="res\bmp00011.bmp" />
+    <Image Include="res\bmp00012.bmp" />
+    <Image Include="res\bmp00013.bmp" />
+    <Image Include="res\bmp00014.bmp" />
+    <Image Include="res\bmp00015.bmp" />
+    <Image Include="res\bmp00016.bmp" />
+    <Image Include="res\bmp00017.bmp" />
+    <Image Include="res\bmp00018.bmp" />
+    <Image Include="res\bmp00019.bmp" />
+    <Image Include="res\bmp00020.bmp" />
+    <Image Include="res\bmp00021.bmp" />
+    <Image Include="res\bmp00022.bmp" />
+    <Image Include="res\bmp00023.bmp" />
+    <Image Include="res\bmp00024.bmp" />
+    <Image Include="res\bmp00025.bmp" />
+    <Image Include="res\bmp00026.bmp" />
+    <Image Include="res\bmp00027.bmp" />
+    <Image Include="res\bmp00028.bmp" />
+    <Image Include="res\bmp00029.bmp" />
+    <Image Include="res\bmp00030.bmp" />
+    <Image Include="res\bmp00031.bmp" />
+    <Image Include="res\bmp00032.bmp" />
+    <Image Include="res\bmp00033.bmp" />
+    <Image Include="res\bmp00034.bmp" />
+    <Image Include="res\bmp00035.bmp" />
+    <Image Include="res\bmp00036.bmp" />
+    <Image Include="res\bmp00037.bmp" />
+    <Image Include="res\bmp00038.bmp" />
+    <Image Include="res\bmp00039.bmp" />
+    <Image Include="res\bmp00040.bmp" />
+    <Image Include="res\bmp00041.bmp" />
+    <Image Include="res\bmp00042.bmp" />
+    <Image Include="res\bmp00043.bmp" />
+    <Image Include="res\bmp00044.bmp" />
+    <Image Include="res\bmp00045.bmp" />
+    <Image Include="res\bmp00046.bmp" />
+    <Image Include="res\bmp00047.bmp" />
+    <Image Include="res\bmp00048.bmp" />
+    <Image Include="res\bmp00049.bmp" />
+    <Image Include="res\bmp00050.bmp" />
+    <Image Include="res\bmp00051.bmp" />
+    <Image Include="res\bmp00052.bmp" />
+    <Image Include="res\bmp00053.bmp" />
+    <Image Include="res\bmp00054.bmp" />
+    <Image Include="res\bmp00055.bmp" />
+    <Image Include="res\bmp00056.bmp" />
+    <Image Include="res\bmp00057.bmp" />
+    <Image Include="res\bmp00058.bmp" />
+    <Image Include="res\bmp00059.bmp" />
+    <Image Include="res\bmp00060.bmp" />
+    <Image Include="res\bmp00061.bmp" />
+    <Image Include="res\bmp00062.bmp" />
+    <Image Include="res\bmp00063.bmp" />
+    <Image Include="res\bmp00064.bmp" />
+    <Image Include="res\bmp00065.bmp" />
+    <Image Include="res\bmp00066.bmp" />
+    <Image Include="res\bmp00067.bmp" />
+    <Image Include="res\bmp00068.bmp" />
+    <Image Include="res\bmp00069.bmp" />
+    <Image Include="res\bmp00070.bmp" />
+    <Image Include="res\bmp00071.bmp" />
+    <Image Include="res\bmp00072.bmp" />
+    <Image Include="res\bmp00073.bmp" />
+    <Image Include="res\bmp00074.bmp" />
+    <Image Include="res\bmp00075.bmp" />
+    <Image Include="res\bmp00076.bmp" />
+    <Image Include="res\bmp00077.bmp" />
+    <Image Include="res\bmp00078.bmp" />
+    <Image Include="res\bmp00079.bmp" />
+    <Image Include="res\bmp00080.bmp" />
+    <Image Include="res\bmp00081.bmp" />
+    <Image Include="res\bmp00082.bmp" />
+    <Image Include="res\bmp00083.bmp" />
+    <Image Include="res\bmp00084.bmp" />
+    <Image Include="res\bmp00085.bmp" />
+    <Image Include="res\bmp00086.bmp" />
+    <Image Include="res\bmp00087.bmp" />
+    <Image Include="res\bmp00088.bmp" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\坦克大战系列.ico" />
+    <Image Include="res\坦克大战系列.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\2.wav" />
+    <Media Include="..\..\..\..\20191126_123631_1.wav" />
+    <Media Include="..\..\..\..\20191126_124514_1.wav" />
+    <Media Include="..\..\..\..\sound1.wav" />
+    <Media Include="..\..\..\..\搜狗高速下载\2634.wav" />
+    <Media Include="..\..\..\..\搜狗高速下载\pconline1552913548843.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="坦克大战系列.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

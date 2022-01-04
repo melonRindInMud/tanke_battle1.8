@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="坦克大战系列.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="坦克大战系列Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="my_resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MQuestDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="M_HelpDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="坦克大战系列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="坦克大战系列Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Battle_Draws.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_init_Draws.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Process_Control.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Battle_Process_Control.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Stage_Information.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Interval_Draws.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_res_tank(virtual basic clas).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_res_shell.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_res_all.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MQuestDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="M_HelpDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_res_player_tank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_CG_Draws.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Story_Presentorcpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Stage_Complete_Draw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_Tank_Upgrade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_res_sound_player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="m_res_npc_tank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="坦克大战系列.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wave2.bin">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\坦克大战系列.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00004.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00005.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00006.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00007.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00008.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00009.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00010.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00011.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00012.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00013.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00014.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00015.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00016.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00017.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00018.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00019.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00020.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00021.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00022.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00023.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00024.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00025.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00026.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00027.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00028.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00029.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00030.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00031.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00032.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00033.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00034.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00035.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00036.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00037.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00038.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00039.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00040.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00041.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00042.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00043.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00044.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00045.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00046.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00047.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00048.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00049.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00050.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00051.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00052.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00053.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00054.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00055.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00056.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00057.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00058.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00059.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00060.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00061.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00062.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00063.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00064.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00065.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00066.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00067.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00068.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00069.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00070.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00071.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00072.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00073.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00074.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00075.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00076.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00077.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00078.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00079.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00080.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00081.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00082.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00083.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00084.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00085.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00086.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00087.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\坦克大战系列.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap9.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp00088.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\搜狗高速下载\pconline1552913548843.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="..\..\..\..\sound1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="..\..\..\..\2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="..\..\..\..\20191126_123631_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="..\..\..\..\20191126_124514_1.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="..\..\..\..\搜狗高速下载\2634.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
